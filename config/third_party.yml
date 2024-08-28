@@ -1,0 +1,17 @@
+development:
+  third_party_endpoints:
+    - "https://example.com/webhook1"
+    - "https://example.com/webhook2"
+  webhook_secret: "hfkhdfksdh328420937840djlfjsf"
+
+test:
+  third_party_endpoints:
+    - "https://example.com/webhook_test1"
+    - "https://example.com/webhook_test2"
+  webhook_secret: "hfkhdfksdh328420937840djlfjsf"
+
+production:
+  third_party_endpoints:
+    - "https://example.com/webhook_prod1"
+    - "https://example.com/webhook_prod2"
+  webhook_secret: "hfkhdfksdh328420937840djlfjsf"
